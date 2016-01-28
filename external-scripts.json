@@ -1,12 +1,26 @@
 [
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit"
+  "hubot-shipit",
+  "hubot-stackstorm",
+  "hubot-thank-you",
+  "hubot-victory",
+  "hubot-github-repo-event-notifier",
+  "hubot-rules",
+  "hubot-mute",
+  "hubot-trello",
+  "hubot-devops-reactions",
+  "hubot-google-hangouts",
+  "hubot-fliptable",
+  "hubot-tweets",
+  "hubot-qr",
+  "hubot-calculator",
+  "hubot-euphemism",
+  "hubot-pager-me"
 ]

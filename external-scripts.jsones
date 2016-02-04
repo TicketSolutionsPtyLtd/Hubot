@@ -23,6 +23,5 @@
   "hubot-calculator",
   "hubot-euphemism",
   "hubot-pager-me",
-  "hubot-beer-me",
-  "hubot-caffeine"
+  "hubot-beer-me"
 ]

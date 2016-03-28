@@ -3,6 +3,10 @@ MAINTAINER Gert Jansen van Rensburg, gertjvr@gmail.com
 
 ENV BOTDIR /opt/bot
 
+ENV HUBOT_PORT 8080
+ENV HUBOT_ADAPTER slack
+ENV HUBOT_NAME jarvis
+
 RUN apt-get update && \
   apt-get install -y wget && \
   wget -q -O - https://deb.nodesource.com/setup_4.x | sudo bash - && \ 
@@ -13,3 +17,5 @@ RUN apt-get update && \
 WORKDIR ${BOTDIR}
 
 RUN npm install
+
+CMD bin/hubot
